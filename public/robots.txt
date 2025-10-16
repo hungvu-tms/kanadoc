@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kanadoc.com
+
+# Sitemaps
+Sitemap: https://kanadoc.com/sitemap.xml
