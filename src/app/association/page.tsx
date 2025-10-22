@@ -1,3 +1,4 @@
+import AssociationWrapper from "@/features/association/components/AssociationWrapper";
 import { mergeMetadata } from "@/lib/seo/merge-meta-data";
 import { Metadata } from "next";
 
@@ -7,7 +8,7 @@ export const metadata: Metadata = mergeMetadata({
 });
 
 const AssociationPage = () => {
-  return <div>Association Page</div>;
+  return <AssociationWrapper />;
 };
 
 export default AssociationPage;

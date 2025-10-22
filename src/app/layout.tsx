@@ -1,3 +1,5 @@
+import Footer from "@/components/common/layouts/Footer";
+import Navbar from "@/components/common/layouts/Navbar";
 import { defaultMetadata } from "@/lib/seo/seo-config";
 import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
@@ -20,7 +22,9 @@ export default function RootLayout({
       <body
         className={`${notoSansJP.variable} ${notoSansJP.className} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

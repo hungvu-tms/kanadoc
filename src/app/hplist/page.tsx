@@ -1,3 +1,5 @@
+import HospitalListWrapper from "@/features/(hospital)/hospital-list/components/HospitalListWrapper";
+import { HOSPITAL_LIST_DATA } from "@/features/(hospital)/hospital-list/constants/hospital-list";
 import { mergeMetadata } from "@/lib/seo/merge-meta-data";
 import { Metadata } from "next";
 
@@ -8,7 +10,7 @@ export const metadata: Metadata = mergeMetadata({
 });
 
 const HpListPage = () => {
-  return <div>Hospital List Page</div>;
+  return <HospitalListWrapper hospitalListData={HOSPITAL_LIST_DATA} />;
 };
 
 export default HpListPage;

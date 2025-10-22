@@ -1,3 +1,4 @@
+import ContactWrapper from "@/features/contact/components/ContactWrapper";
 import { mergeMetadata } from "@/lib/seo/merge-meta-data";
 import { Metadata } from "next";
 
@@ -6,7 +7,7 @@ export const metadata: Metadata = mergeMetadata({
   description: "神奈川県医師会へのお問い合わせ方法や窓口をご案内します。",
 });
 const ContactPage = () => {
-  return <div>Contact Page</div>;
+  return <ContactWrapper />;
 };
 
 export default ContactPage;

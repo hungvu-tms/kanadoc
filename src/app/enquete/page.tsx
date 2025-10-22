@@ -1,3 +1,4 @@
+import EnqueteWrapper from "@/features/enquete/components/EnqueteWrapper";
 import { mergeMetadata } from "@/lib/seo/merge-meta-data";
 import { Metadata } from "next";
 
@@ -6,7 +7,7 @@ export const metadata: Metadata = mergeMetadata({
   description: "研修医の意識や現状を調査したアンケート結果を掲載しています。",
 });
 const EnquetePage = () => {
-  return <div>Enquete Page</div>;
+  return <EnqueteWrapper />;
 };
 
 export default EnquetePage;
