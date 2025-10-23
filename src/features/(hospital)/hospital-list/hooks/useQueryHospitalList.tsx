@@ -14,7 +14,6 @@ const useQueryHospitalList = (hospitalListData: Hospital[]) => {
   const onChangeArea = useCallback(
     async (area: string) => {
       showLoading();
-      new Promise((resolve) => setTimeout(resolve, 100000));
       try {
         queryParams.current.area = area;
         const res = await hospitalApi.getListHospital({

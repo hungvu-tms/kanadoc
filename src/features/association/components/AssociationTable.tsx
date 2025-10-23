@@ -1,8 +1,8 @@
 import BaseButton from "@/components/base/BaseButton";
 import { BaseTable } from "@/components/base/BaseTable";
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import { ASSOCIATION_TABLE_DATA } from "@/features/association/constants/association";
-import Image from "next/image";
 import Link from "next/link";
 
 const AssociationTable = () => {
@@ -21,7 +21,7 @@ const AssociationTable = () => {
         >
           <BaseButton className="w-full">産業医についてはこちら</BaseButton>
         </Link>
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/bunkakaiTitle.svg"
           alt="bunkakai"
           width={1000}

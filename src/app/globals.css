@@ -121,6 +121,12 @@
   }
 }
 
+@keyframes shimmer {
+  100% {
+    background-position: -200% 0;
+  }
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

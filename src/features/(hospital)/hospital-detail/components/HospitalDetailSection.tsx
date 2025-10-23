@@ -1,6 +1,7 @@
 "use client";
 import BaseButton from "@/components/base/BaseButton";
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import {
   Carousel,
   CarouselContent,
@@ -22,7 +23,6 @@ import {
   Printer,
   University,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 
@@ -39,7 +39,7 @@ const HospitalDetailSection = ({
     switch (type) {
       case "youtube":
         return (
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/hpinfoIcon/youtube.svg"
             alt="youtube"
             width={25}
@@ -49,7 +49,7 @@ const HospitalDetailSection = ({
         );
       case "twitter":
         return (
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/hpinfoIcon/x.svg"
             alt="twitter"
             width={25}
@@ -149,7 +149,7 @@ const HospitalDetailSection = ({
                 (image: string, index: number) => (
                   <CarouselItem key={index}>
                     <div className="p-1">
-                      <Image
+                      <ImageFallback
                         src={image}
                         alt="gallery"
                         width={100}

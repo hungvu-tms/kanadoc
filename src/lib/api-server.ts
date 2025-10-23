@@ -22,7 +22,6 @@ export async function apiFetch<T = any>(
       ...(options?.headers || {}),
     },
   });
-  await new Promise((r) => setTimeout(r, 1000));
 
   if (!res.ok) {
     throw new Error(`Fetch error: ${res.status} ${res.statusText} (${url})`);

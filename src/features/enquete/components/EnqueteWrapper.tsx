@@ -1,6 +1,6 @@
 import HeroSection from "@/components/common/HeroSection";
+import ImageFallback from "@/components/common/ImageFallback";
 import EnqueteSection from "@/features/enquete/components/EnqueteSection";
-import Image from "next/image";
 
 const EnqueteWrapper = () => {
   return (
@@ -10,7 +10,7 @@ const EnqueteWrapper = () => {
         image="https://kanadoc.com/image/headerImage/seniorTop.jpg"
       />
       <section className="flex items-center justify-center bg-[#F5F6FA] flex-col gap-10">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/enqueteTitle.svg"
           alt="news"
           width={1000}

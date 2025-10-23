@@ -1,5 +1,5 @@
 import BaseButton from "@/components/base/BaseButton";
-import Image from "next/image";
+import ImageFallback from "@/components/common/ImageFallback";
 import Link from "next/link";
 
 const medicalItems = [
@@ -36,7 +36,7 @@ const MedicalSection = () => {
             key={`medical-item-${key}`}
           >
             <div className="w-full h-full max-h-[200px] md:max-h-[150px]">
-              <Image
+              <ImageFallback
                 src={item.image}
                 alt={item.title}
                 width={1000}

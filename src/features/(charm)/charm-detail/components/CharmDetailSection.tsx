@@ -1,6 +1,7 @@
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import { CharmDetailData } from "@/features/(charm)/charm-detail/types/charm-detail";
-import Image from "next/image";
+
 
 interface CharmDetailSectionProps {
   id: string;
@@ -21,7 +22,7 @@ const CharmDetailSection = ({
           <p className="text-[24px] text-[#282688] font-bold text-center">
             {charmDetailData.title}
           </p>
-          <Image
+          <ImageFallback
             src={charmDetailData.image}
             alt={charmDetailData.title}
             width={1000}

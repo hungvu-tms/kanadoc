@@ -1,7 +1,7 @@
 import BaseContainer from "@/components/common/BaseContainer";
 import HeroSection from "@/components/common/HeroSection";
+import ImageFallback from "@/components/common/ImageFallback";
 import AssociationTable from "@/features/association/components/AssociationTable";
-import Image from "next/image";
 
 const AssociationWrapper = () => {
   return (
@@ -12,7 +12,7 @@ const AssociationWrapper = () => {
       />
 
       <section className="flex items-center justify-center bg-[#F5F6FA] flex-col gap-10 mt-10 mb-15 px-5">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/associationTitle.svg"
           alt="news"
           width={1000}
@@ -31,7 +31,7 @@ const AssociationWrapper = () => {
       </section>
       <div className="flex flex-col gap-10 w-full">
         <BaseContainer>
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/image/ishikai1SP.png"
             alt="association"
             width={1000}
@@ -42,7 +42,7 @@ const AssociationWrapper = () => {
 
           <div className="flex w-full">
             <a href="#">
-              <Image
+              <ImageFallback
                 src="https://kanadoc.com/image/image/ishikai1ASP.png"
                 alt="association"
                 width={1000}
@@ -52,7 +52,7 @@ const AssociationWrapper = () => {
               />
             </a>
             <a href="#">
-              <Image
+              <ImageFallback
                 src="https://kanadoc.com/image/image/ishikai1BSP.png"
                 alt="association"
                 width={1000}
@@ -62,7 +62,7 @@ const AssociationWrapper = () => {
               />
             </a>
             <a href="#">
-              <Image
+              <ImageFallback
                 src="https://kanadoc.com/image/image/ishikai1CSP.png"
                 alt="association"
                 width={1000}
@@ -72,7 +72,7 @@ const AssociationWrapper = () => {
               />
             </a>
           </div>
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/image/ishikai2SP.png"
             alt="association"
             width={1000}
@@ -80,7 +80,7 @@ const AssociationWrapper = () => {
             className="w-full"
             unoptimized
           />
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/image/ishikai3SP.png"
             alt="association"
             width={1000}
@@ -91,7 +91,7 @@ const AssociationWrapper = () => {
         </BaseContainer>
 
         <BaseContainer>
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/image/ishikai4SP.png"
             alt="association"
             width={1000}
@@ -102,7 +102,7 @@ const AssociationWrapper = () => {
         </BaseContainer>
 
         <BaseContainer>
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/image/ishikai5SP.png"
             alt="association"
             width={1000}

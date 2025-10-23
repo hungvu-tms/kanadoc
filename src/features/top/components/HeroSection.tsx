@@ -1,9 +1,10 @@
-import Image from "next/image";
+import ImageFallback from "@/components/common/ImageFallback";
 
 const HeroSection = () => {
   return (
     <section className="w-screen h-[60vh] sm:h-screen px-[40px] sm:px-0  bg-[url('https://kanadoc.com/image/headerImage/newmainTop1.jpg')] bg-cover bg-center flex items-center justify-center">
-      <Image
+      <ImageFallback
+        showSkeleton={false}
         src="/logoMain.svg"
         alt="hero-bg"
         width={500}

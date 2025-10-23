@@ -1,9 +1,10 @@
-import ListHospitalResponse from "@/mocks/data/GetListHospital.json";
-import HospitalDetailResponse from "@/mocks/data/GẹtHospitalDetail.json";
-import NewsListResponse from "@/mocks/data/GetNewsList.json";
-import NewDetailResponse from "@/mocks/data/GetNewDetail.json";
-import CharmListResponse from "@/mocks/data/GetCharmList.json";
 import CharmDetailResponse from "@/mocks/data/GetCharmDetail.json";
+import CharmListResponse from "@/mocks/data/GetCharmList.json";
+import TopResponse from "@/mocks/data/GetDataTop.json";
+import ListHospitalResponse from "@/mocks/data/GetListHospital.json";
+import NewDetailResponse from "@/mocks/data/GetNewDetail.json";
+import NewsListResponse from "@/mocks/data/GetNewsList.json";
+import HospitalDetailResponse from "@/mocks/data/GẹtHospitalDetail.json";
 import { NextRequest } from "next/server";
 
 const mockDataMap: Record<string, unknown> = {
@@ -13,6 +14,7 @@ const mockDataMap: Record<string, unknown> = {
   newdetail: NewDetailResponse,
   charmlist: CharmListResponse,
   charmdetail: CharmDetailResponse,
+  top: TopResponse,
 };
 
 const corsHeaders = {

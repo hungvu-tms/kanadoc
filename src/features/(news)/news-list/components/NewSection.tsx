@@ -1,6 +1,6 @@
 import BaseButton from "@/components/base/BaseButton";
+import ImageFallback from "@/components/common/ImageFallback";
 import { NewItem } from "@/features/(news)/news-list/types/new-list";
-import Image from "next/image";
 import Link from "next/link";
 
 interface NewSectionProps {
@@ -10,7 +10,7 @@ const NewSection = ({ newList }: NewSectionProps) => {
   return (
     <section className="flex flex-col gap-4 items-center justify-center bg-[#F5F6FA] py-[80px] px-5  sm:px-0">
       <div className="flex flex-col items-center justify-center gap-[30px]">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/noticeTitle.svg"
           alt="news"
           width={1000}
@@ -38,7 +38,7 @@ const NewSection = ({ newList }: NewSectionProps) => {
                 </div>
               </div>
               <div className="flex-[0_0_70px]">
-                <Image
+                <ImageFallback
                   src="/noimage.jpg"
                   alt={"no-image"}
                   width={1000}

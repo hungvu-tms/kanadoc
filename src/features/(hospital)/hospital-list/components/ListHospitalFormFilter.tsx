@@ -44,7 +44,7 @@ const ListHospitalFormFilter = ({
           alt="filter-image"
           width={1000}
           height={1000}
-          className="h-full object-cover w-full sm:w-[50%] my-[60px] mb-4 sm:mb-[60px]"
+          className="h-full w-full sm:w-[50%] my-[60px] mb-4 sm:mb-[60px]"
           unoptimized
         />
 

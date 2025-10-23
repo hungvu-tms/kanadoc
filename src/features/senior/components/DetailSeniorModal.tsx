@@ -1,6 +1,6 @@
 import BaseModal from "@/components/base/BaseModal";
+import ImageFallback from "@/components/common/ImageFallback";
 import { SeniorItem } from "@/features/senior/types/senior";
-import Image from "next/image";
 import Link from "next/link";
 
 export interface DetailSeniorModalProps {
@@ -21,7 +21,7 @@ const DetailSeniorModal = ({
   return (
     <BaseModal open={open} onClose={onClose}>
       <div className="flex w-full justify-center items-center gap-4">
-        <Image
+        <ImageFallback
           src={icon}
           alt={name}
           width={1000}

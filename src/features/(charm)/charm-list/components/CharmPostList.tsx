@@ -1,8 +1,8 @@
 "use client";
 import BasePagination from "@/components/base/BasePagination";
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import { CharmItem } from "@/features/(charm)/charm-list/types/charm-list";
-import Image from "next/image";
 import Link from "next/link";
 
 interface CharmPostListProps {
@@ -20,12 +20,12 @@ const CharmPostList = ({
   return (
     <BaseContainer className="bg-white">
       <div className="w-full flex items-center justify-center sm:py-20 py-10">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/charmAllTitle.svg"
           alt="charm-introduce"
           width={1000}
           height={1000}
-          className="sm:w-[22%] w-[60%] h-full object-cover"
+          className="sm:w-[50%] w-[60%] h-full object-cover"
         />
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-10">
@@ -35,7 +35,7 @@ const CharmPostList = ({
             className="grid grid-rows-subgrid row-span-2 gap-2"
           >
             <Link href={`/charm/${item.id}`} className="overflow-hidden">
-              <Image
+              <ImageFallback
                 src={item.image}
                 alt={item.title}
                 width={1000}

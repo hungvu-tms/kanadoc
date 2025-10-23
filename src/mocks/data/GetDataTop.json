@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "meta": {
+    "timestamp": 1719168000,
+    "version": "1.0.0"
+  },
+  "data": {
+    "news_list": [
+      {
+        "date": "2024年12月26日 11:09",
+        "title": "2024 年度 神奈川県臨床研修病院オンライン合同説明会",
+        "image": "https://kanadoc.com/articleImage/noimage.jpg",
+        "id": 65
+      },
+      {
+        "date": "2024年10月01日 10:00",
+        "title": "ホームページを公開しました。",
+        "image": "https://kanadoc.com/articleImage/noimage.jpg",
+        "id": 66
+      }
+    ],
+    "charm_list": [
+      {
+        "title": "美食俱楽部「料理屋 大三」",
+        "image": "https://kanadoc.com/articleImage/63/t.jpg",
+        "id": 63
+      },
+      {
+        "title": "美食俱楽部「Doicciane(ドイッチャーネ)」",
+        "image": "https://kanadoc.com/articleImage/62/t.jpg",
+        "id": 62
+      },
+      {
+        "title": "美食俱楽部「イタリア料理 アルモニーア」",
+        "image": "https://kanadoc.com/articleImage/58/t.jpg",
+        "id": 58
+      },
+      {
+        "title": "美食俱楽部「ファミリーなフレンチのお店 ビストロ・ラ・シャンブル」",
+        "image": "https://kanadoc.com/articleImage/59/t.jpg",
+        "id": 59
+      }
+    ]
+  }
+}

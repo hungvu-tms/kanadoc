@@ -1,26 +1,17 @@
 import BaseButton from "@/components/base/BaseButton";
-import Image from "next/image";
+import ImageFallback from "@/components/common/ImageFallback";
+import { NewItem } from "@/features/(news)/news-list/types/new-list";
+
 import Link from "next/link";
 
-const newItems = [
-  {
-    date: "2024年12月26日 11:09",
-    title: "2024 年度 神奈川県臨床研修病院オンライン合同説明会",
-    image: "https://kanadoc.com/articleImage/noimage.jpg",
-    id: 65,
-  },
-  {
-    date: "2024年10月01日 10:00",
-    title: "ホームページを公開しました。",
-    image: "https://kanadoc.com/articleImage/noimage.jpg",
-    id: 66,
-  },
-];
-const NewSection = () => {
+interface NewSectionProps {
+  newList: NewItem[];
+}
+const NewSection = ({ newList }: NewSectionProps) => {
   return (
     <section className="flex flex-col gap-4 items-center justify-center bg-[#F5F6FA] pt-[80px] px-5  sm:px-0">
       <div className="flex flex-col items-center justify-center gap-[30px]">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/noticeTitle.svg"
           alt="news"
           width={1000}
@@ -28,7 +19,7 @@ const NewSection = () => {
           className="w-[400px] h-auto"
         />
         <div className="flex flex-col">
-          {newItems.map((item, key) => (
+          {newList.map((item, key) => (
             <Link
               key={`new-item-${key}`}
               href={`/news/${item.id}`}
@@ -48,7 +39,7 @@ const NewSection = () => {
                 </div>
               </div>
               <div className="flex-[0_0_70px]">
-                <Image
+                <ImageFallback
                   src="/noimage.jpg"
                   alt={"no-image"}
                   width={1000}
@@ -64,7 +55,7 @@ const NewSection = () => {
             一覧を見る
           </BaseButton>
         </Link>
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/image/back.svg"
           alt="discovery"
           width={1000}

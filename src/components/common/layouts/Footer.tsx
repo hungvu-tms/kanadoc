@@ -1,5 +1,5 @@
 import BaseContainer from "@/components/common/BaseContainer";
-import Image from "next/image";
+import ImageFallback from "@/components/common/ImageFallback";
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -34,13 +34,14 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <Image
+        <ImageFallback
           src="/logoMain.svg"
           alt="kanagawa_logo"
           width={150}
           height={150}
           className="object-cover"
           unoptimized
+          showSkeleton={false}
         />
       </div>
     </BaseContainer>

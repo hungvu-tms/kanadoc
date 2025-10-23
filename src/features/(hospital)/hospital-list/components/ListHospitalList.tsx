@@ -1,8 +1,8 @@
 import BaseButton from "@/components/base/BaseButton";
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import ZoneChip from "@/features/(hospital)/components/ZoneChip";
 import { Hospital } from "@/features/(hospital)/hospital-list/types/hospital-list";
-import Image from "next/image";
 import Link from "next/link";
 
 interface ListHospitalListProps {
@@ -20,13 +20,13 @@ const ListHospitalList = ({ hospitalList }: ListHospitalListProps) => {
             key={hospital.id}
             className="flex items-center flex-col sm:flex-row gap-[32px] border-b border-dotted border-[#33447D] pb-4"
           >
-            <Image
+            <ImageFallback
               src={hospital.image}
               alt="image"
               width={1000}
               height={1000}
               unoptimized
-              className="flex-none w-full sm:w-[90px]"
+              className="w-full sm:w-[90px]"
             />
             <div className="flex flex-col gap-2 w-full">
               <div className="flex flex-col">
@@ -46,7 +46,7 @@ const ListHospitalList = ({ hospitalList }: ListHospitalListProps) => {
         ))}
       </div>
       <div className="flex items-center justify-center w-full flex-col gap-[30px] pb-[50px]">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/enqueteTitle.svg"
           alt="list-title"
           width={1000}

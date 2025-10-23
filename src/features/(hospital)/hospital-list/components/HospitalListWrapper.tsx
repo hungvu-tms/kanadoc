@@ -1,6 +1,7 @@
 "use client";
 
 import HeroSection from "@/components/common/HeroSection";
+import ImageFallback from "@/components/common/ImageFallback";
 import ListHospitalFormFilter from "@/features/(hospital)/hospital-list/components/ListHospitalFormFilter";
 import ListHospitalList from "@/features/(hospital)/hospital-list/components/ListHospitalList";
 import useQueryHospitalList from "@/features/(hospital)/hospital-list/hooks/useQueryHospitalList";
@@ -26,7 +27,7 @@ const HospitalListWrapper = ({
           alt="news"
           width={1000}
           height={1000}
-          className="w-[50%] sm:w-[300px] h-auto pt-[80px] pb-[50px]"
+          className="w-[50%] sm:w-[22%] h-auto pt-[80px] pb-[50px]"
         />
       </section>
       <ListHospitalFormFilter
@@ -35,7 +36,7 @@ const HospitalListWrapper = ({
       />
       <ListHospitalList hospitalList={hospitalList} />
       <section className="w-full bg-white flex flex-col items-center justify-center py-[30px] gap-[40px] mt-5 sm:mt-[70px]">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/articleTitle.svg"
           alt="senior"
           width={1000}

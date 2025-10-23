@@ -1,9 +1,9 @@
 "use client";
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import DetailSeniorModal from "@/features/senior/components/DetailSeniorModal";
 import { SENIOR_DATA } from "@/features/senior/constants/senior";
 import { SeniorData } from "@/features/senior/types/senior";
-import Image from "next/image";
 import { useState } from "react";
 
 const SeniorSection = () => {
@@ -20,12 +20,12 @@ const SeniorSection = () => {
   return (
     <BaseContainer>
       <div className="flex justify-center items-center gap-4 w-full pt-20">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/seniorTitle.svg"
           alt="senior-section-1"
           width={1000}
           height={1000}
-          className="md:w-[22%] w-[60%] h-auto"
+          className="md:w-[50%] w-[60%] h-auto"
         />
       </div>
       <div className="flex w-full justify-center items-start md:gap-20 md:py-20 py-10 flex-col md:flex-row gap-8">
@@ -40,7 +40,7 @@ const SeniorSection = () => {
           </p>
         </div>
         <div className="flex-1 w-full">
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/hparticle/senior.jpg"
             alt="senior-section-1"
             width={1000}
@@ -64,7 +64,7 @@ const SeniorSection = () => {
                 })
               }
             >
-              <Image
+              <ImageFallback
                 src={item.image}
                 alt={item.name}
                 width={1000}

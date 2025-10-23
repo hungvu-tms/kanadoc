@@ -1,5 +1,5 @@
 import BaseContainer from "@/components/common/BaseContainer";
-import Image from "next/image";
+import ImageFallback from "@/components/common/ImageFallback";
 
 const EnqueteSection = () => {
   return (
@@ -7,7 +7,7 @@ const EnqueteSection = () => {
       classNameContent="bg-white"
       className="mt-15 px-[20px] pb-[20px] sm:pb-[80px] sm:px-0"
     >
-      <Image
+      <ImageFallback
         src="https://kanadoc.com/image/image/graphH.png"
         alt="enquete"
         width={1000}
@@ -16,7 +16,7 @@ const EnqueteSection = () => {
         unoptimized
       />
 
-      <Image
+      <ImageFallback
         src="https://kanadoc.com/image/image/graphI.png"
         alt="enquete"
         width={1000}
@@ -24,7 +24,7 @@ const EnqueteSection = () => {
         className="w-full"
         unoptimized
       />
-      <Image
+      <ImageFallback
         src="https://kanadoc.com/image/image/graphJ.png"
         alt="enquete"
         width={1000}
@@ -32,7 +32,7 @@ const EnqueteSection = () => {
         className="w-full"
         unoptimized
       />
-      <Image
+      <ImageFallback
         src="https://kanadoc.com/image/image/graphK.png"
         alt="enquete"
         width={1000}

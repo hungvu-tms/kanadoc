@@ -1,18 +1,18 @@
 import BaseContainer from "@/components/common/BaseContainer";
+import ImageFallback from "@/components/common/ImageFallback";
 import { CHARM_INTRODUCE } from "@/features/(charm)/charm-list/constants/charm-list";
-import Image from "next/image";
 import Link from "next/link";
 
 const CharmIntroduce = () => {
   return (
     <BaseContainer>
       <div className="flex flex-col items-center justify-center w-full pt-20 sm:pt-30 pb-10 sm:pb-20">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/charmTitle.svg"
           alt="charm-introduce"
           width={1000}
           height={1000}
-          className="w-[60%] sm:w-[22%] h-full object-cover"
+          className="w-[60%] sm:w-[50%] h-full object-cover"
         />
       </div>
       <div className="w-full flex flex-col gap-10">
@@ -35,7 +35,7 @@ const CharmIntroduce = () => {
       </div>
 
       <div className="flex items-center justify-center w-full flex-col gap-10 sm:p-30 px-0 py-15">
-        <Image
+        <ImageFallback
           src="https://kanadoc.com/image/headerTitle/kankouTitle.svg"
           alt="charm-introduce"
           width={1000}
@@ -50,7 +50,7 @@ const CharmIntroduce = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <ImageFallback
             src="https://kanadoc.com/image/image/kanagawa_logo.jpg"
             alt="kanagawa_logo"
             width={1000}
