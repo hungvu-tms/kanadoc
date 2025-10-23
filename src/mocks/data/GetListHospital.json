@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "meta": {
+    "timestamp": 1719168000,
+    "version": "1.0.0"
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "済生会横浜市東部病院",
+      "image": "https://kanadoc.com/image/hospitalImage/1/01.jpg",
+      "zone": "横浜北部エリア",
+      "type": 1
+    },
+    {
+      "id": 2,
+      "name": "けいゆう病院",
+      "image": "https://kanadoc.com/image/hospitalImage/7/01.jpg",
+      "zone": "横浜西部エリア",
+      "type": 2
+    },
+    {
+      "id": 3,
+      "name": "JCHO横浜中央病院",
+      "image": "https://kanadoc.com/image/hospitalImage/16/01.jpg",
+      "zone": "横浜南部エリア",
+      "type": 3
+    },
+    {
+      "id": 4,
+      "name": "帝京大学医学部附属溝口病院",
+      "image": "https://kanadoc.com/image/hospitalImage/23/01.jpg",
+      "zone": "川崎北部エリア",
+      "type": 4
+    },
+    {
+      "id": 5,
+      "name": "帝京大学医学部附属溝口病院",
+      "image": "https://kanadoc.com/image/hospitalImage/31/01.jpg",
+      "zone": "川崎南部エリア",
+      "type": 5
+    },
+    {
+      "id": 6,
+      "name": "帝京大学医学部附属溝口病院",
+      "image": "https://kanadoc.com/image/hospitalImage/34/01.jpg",
+      "zone": "相模原エリア",
+      "type": 6
+    },
+    {
+      "id": 7,
+      "name": "帝京大学医学部附属溝口病院",
+      "image": "https://kanadoc.com/image/hospitalImage/40/01.jpg",
+      "zone": "相模原エリア",
+      "type": 7
+    },
+    {
+      "id": 8,
+      "name": "帝京大学医学部附属溝口病院",
+      "image": "https://kanadoc.com/image/hospitalImage/43/01.jpg",
+      "zone": "相模原エリア",
+      "type": 8
+    }
+  ]
+}
