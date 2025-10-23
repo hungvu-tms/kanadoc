@@ -32,7 +32,7 @@ const MedicalSection = () => {
         {medicalItems.map((item, key) => (
           <div
             style={{ backgroundColor: item.color }}
-            className={`w-full rounded-[16px] flex flex-col gap-4 border-[1px] border-[#ffffff] bg-[${item.color}] self-stretch`}
+            className={`w-full rounded-[16px] flex flex-col gap-4 border-[1px] border-[#ffffff] bg-[${item.color}] self-stretch justify-between`}
             key={`medical-item-${key}`}
           >
             <div className="w-full h-full max-h-[200px] md:max-h-[150px]">

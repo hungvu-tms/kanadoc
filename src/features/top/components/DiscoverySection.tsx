@@ -39,14 +39,14 @@ const DiscoverySection = ({ charmList }: DiscoverySectionProps) => {
                 >
                   <Link
                     href={`/charm/${item.id}`}
-                    className="w-full h-auto flex flex-col gap-3"
+                    className="w-full sm:h-auto h-[260px]  flex flex-col gap-3"
                   >
                     <ImageFallback
                       src={item.image}
                       alt={item.title}
                       width={1000}
                       height={1000}
-                      className="w-full h-full object-cover rounded-[10px]"
+                      className="w-full sm:h-full h-[200px] object-cover rounded-[10px]"
                       unoptimized
                     />
                     <h3 className="font-bold text-[16px]">{item.title}</h3>
