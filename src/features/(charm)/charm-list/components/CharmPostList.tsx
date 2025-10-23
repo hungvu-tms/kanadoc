@@ -52,13 +52,15 @@ const CharmPostList = ({
           </div>
         ))}
       </div>
-      <div className="w-full flex items-center justify-center pt-10 pb-20">
-        <BasePagination
-          totalPages={totalPages}
-          currentPage={currentPage}
-          onPageChange={onChangePage}
-        />
-      </div>
+      {Boolean(charmListData.length) && (
+        <div className="w-full flex items-center justify-center pt-10 pb-20">
+          <BasePagination
+            totalPages={totalPages}
+            currentPage={currentPage}
+            onPageChange={onChangePage}
+          />
+        </div>
+      )}
     </BaseContainer>
   );
 };

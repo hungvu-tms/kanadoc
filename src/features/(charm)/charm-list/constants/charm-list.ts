@@ -1,21 +1,3 @@
-export const CHARM_LIST_DATA = [
-  {
-    id: 63,
-    title: "美食俱楽部「料理屋 大三」",
-    image: "https://kanadoc.com/articleImage/63/t.jpg",
-  },
-  {
-    id: 62,
-    title: "美食俱楽部「Doicciane(ドイッチャーネ)」",
-    image: "https://kanadoc.com/articleImage/62/t.jpg",
-  },
-  {
-    id: 58,
-    title: "美食俱楽部「イタリア料理 アルモニーア」",
-    image: "https://kanadoc.com/articleImage/58/t.jpg",
-  },
-];
-
 export const CHARM_INTRODUCE = [
   {
     background_image: "https://kanadoc.com/image/hparticle/charmA_sp.jpg",

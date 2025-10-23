@@ -31,7 +31,7 @@ const ListHospitalFormFilter = ({
     onChangeName(data.name);
   };
   useEffect(() => {
-    onChangeArea(area);
+    if (area) onChangeArea(area);
   }, [area, onChangeArea]);
   return (
     <BaseContainer

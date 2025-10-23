@@ -1,5 +1,3 @@
-"use client";
-
 import HeroSection from "@/components/common/HeroSection";
 import NewDetailSection from "@/features/(news)/news-detail/components/NewDetailSection";
 import { NewsDetailData } from "@/features/(news)/news-detail/types/news-detail";

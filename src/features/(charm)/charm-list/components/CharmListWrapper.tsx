@@ -3,14 +3,18 @@ import HeroSection from "@/components/common/HeroSection";
 import CharmIntroduce from "@/features/(charm)/charm-list/components/CharmIntroduce";
 import CharmPostList from "@/features/(charm)/charm-list/components/CharmPostList";
 import useQueryCharmList from "@/features/(charm)/charm-list/hooks/useQueryCharmList";
-import { CharmItem } from "@/features/(charm)/charm-list/types/charm-list";
+import { CharmListData } from "@/features/(charm)/charm-list/types/charm-list";
 
 interface CharmListWrapperProps {
-  charmListData: CharmItem[];
+  charmData: CharmListData;
 }
-const CharmListWrapper = ({ charmListData }: CharmListWrapperProps) => {
+const CharmListWrapper = ({ charmData }: CharmListWrapperProps) => {
   const { currentPage, totalPages, charmList, onChangePage } =
-    useQueryCharmList(charmListData);
+    useQueryCharmList(
+      charmData.charm_list,
+      charmData.page_current,
+      charmData.total_pages
+    );
   return (
     <div className="w-full">
       <HeroSection
