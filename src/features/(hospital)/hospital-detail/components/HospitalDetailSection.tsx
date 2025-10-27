@@ -40,21 +40,19 @@ const HospitalDetailSection = ({
       case "youtube":
         return (
           <ImageFallback
-            src="https://kanadoc.com/image/hpinfoIcon/youtube.svg"
+            src="/images/hplist/youtube.svg"
             alt="youtube"
             width={25}
             height={25}
-            unoptimized
           />
         );
       case "twitter":
         return (
           <ImageFallback
-            src="https://kanadoc.com/image/hpinfoIcon/x.svg"
+            src="/images/hplist/x.svg"
             alt="twitter"
             width={25}
             height={25}
-            unoptimized
           />
         );
       default:
@@ -73,12 +71,12 @@ const HospitalDetailSection = ({
             zone={hospitalDetailData.zone}
             type={hospitalDetailData.type}
           />
-          <p className="flex items-center text-[24px] text-[#282688] border-l-6 border-[#282688] pl-2 h-[27px]">
-            汐田総合病院
+          <p className="flex items-center text-[24px] text-[#282688] border-l-6 border-[#282688] pl-2 break-all">
+            {hospitalDetailData.name}
           </p>
           <div className="flex flex-col text-[16px] text-[#585858]">
-            <p>{hospitalDetailData.road}</p>
-            <p>{hospitalDetailData.address}</p>
+            <p className='break-all'>{hospitalDetailData.road}</p>
+            <p className='break-all'>{hospitalDetailData.address}</p>
           </div>
 
           <div className="flex gap-2 items-center">
@@ -94,11 +92,11 @@ const HospitalDetailSection = ({
             </span>
           </div>
           <div className="flex gap-2 items-start">
-            <PersonStanding className="w-[25px] h-[25px]" />
+            <PersonStanding className="flex-none basic-[25px] h-[25px]" />
             <div className="flex flex-col">
               {hospitalDetailData.access.map(
                 (access: string, index: number) => (
-                  <span key={index} className="text-[16px] text-[#585858]">
+                  <span key={index} className="text-[16px] text-[#585858] flex break-all">
                     {access}
                   </span>
                 )
@@ -155,7 +153,6 @@ const HospitalDetailSection = ({
                         width={100}
                         height={100}
                         className="w-full h-full object-cover"
-                        unoptimized
                       />
                     </div>
                   </CarouselItem>
@@ -224,10 +221,7 @@ const HospitalDetailSection = ({
               <p>全体数：{hospitalDetailData.number_detail.doctors.total}</p>
             </div>
             <div className="py-2">
-              <p>
-                {" "}
-                指導医：{hospitalDetailData.number_detail.doctors.nursing}{" "}
-              </p>
+              <p>指導医：{hospitalDetailData.number_detail.doctors.nursing} </p>
             </div>
           </div>
         </TableWrapper>

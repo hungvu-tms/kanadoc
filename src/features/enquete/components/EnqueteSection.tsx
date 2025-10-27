@@ -8,37 +8,33 @@ const EnqueteSection = () => {
       className="mt-15 px-[20px] pb-[20px] sm:pb-[80px] sm:px-0"
     >
       <ImageFallback
-        src="https://kanadoc.com/image/image/graphH.png"
+        src="/images/enquete/graphH.png"
         alt="enquete"
         width={1000}
         height={1000}
         className="w-full"
-        unoptimized
       />
 
       <ImageFallback
-        src="https://kanadoc.com/image/image/graphI.png"
+        src="/images/enquete/graphI.png"
         alt="enquete"
         width={1000}
         height={1000}
         className="w-full"
-        unoptimized
       />
       <ImageFallback
-        src="https://kanadoc.com/image/image/graphJ.png"
+        src="/images/enquete/graphJ.png"
         alt="enquete"
         width={1000}
         height={1000}
         className="w-full"
-        unoptimized
       />
       <ImageFallback
-        src="https://kanadoc.com/image/image/graphK.png"
+        src="/images/enquete/graphK.png"
         alt="enquete"
         width={1000}
         height={1000}
         className="w-full"
-        unoptimized
       />
     </BaseContainer>
   );

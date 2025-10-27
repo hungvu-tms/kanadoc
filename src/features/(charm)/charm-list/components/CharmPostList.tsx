@@ -19,9 +19,9 @@ const CharmPostList = ({
 }: CharmPostListProps) => {
   return (
     <BaseContainer className="bg-white">
-      <div className="w-full flex items-center justify-center sm:py-20 py-10">
+      <div id="charm-post" className="w-full flex items-center justify-center sm:py-20 py-10">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/charmAllTitle.svg"
+          src="/images/charm/charmAllTitle.svg"
           alt="charm-introduce"
           width={1000}
           height={1000}
@@ -41,11 +41,10 @@ const CharmPostList = ({
                 width={1000}
                 height={1000}
                 className="w-full h-full object-cover max-h-[220px]"
-                unoptimized
               />
             </Link>
-            <Link href={`/charm/${item.id}`} className="">
-              <h3 className="font-bold text-[16px] text-[#33447D]">
+            <Link href={`/charm/${item.id}`} className="w-full min-w-0">
+              <h3 className="font-bold text-[16px] text-[#33447D] overflow-hidden text-ellipsis w-full min-w-0 line-clamp-2">
                 {item.title}
               </h3>
             </Link>

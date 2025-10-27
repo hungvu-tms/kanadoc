@@ -25,14 +25,13 @@ const ListHospitalList = ({ hospitalList }: ListHospitalListProps) => {
               alt="image"
               width={1000}
               height={1000}
-              unoptimized
               className="w-full sm:w-[90px]"
             />
-            <div className="flex flex-col gap-2 w-full">
+            <div className="flex flex-col gap-2 w-full min-w-0">
               <div className="flex flex-col">
                 <ZoneChip zone={hospital.zone} type={hospital.type} />
-                <p className="text-[16px] font-bold text-[#33447D]">
-                  済生会横浜市東部病院
+                <p className="text-[16px] font-bold text-[#33447D] whitespace-nowrap overflow-hidden text-ellipsis">
+                  {hospital.name}
                 </p>
               </div>
               <Link
@@ -47,7 +46,7 @@ const ListHospitalList = ({ hospitalList }: ListHospitalListProps) => {
       </div>
       <div className="flex items-center justify-center w-full flex-col gap-[30px] pb-[50px]">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/enqueteTitle.svg"
+          src="/images/hplist/enqueteTitle.svg"
           alt="list-title"
           width={1000}
           height={1000}

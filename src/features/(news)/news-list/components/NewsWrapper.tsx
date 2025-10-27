@@ -11,8 +11,9 @@ const NewsWrapper = ({ newsListData }: NewsWrapperProps) => {
     <>
       <HeroSection
         title="お知らせ"
-        image="https://kanadoc.com/image/headerImage/newsTop.jpg"
+        image="/images/news/newsTop.jpg"
       />
+      
       <NewSection newList={newsListData} />
     </>
   );

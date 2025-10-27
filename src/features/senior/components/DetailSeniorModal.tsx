@@ -21,14 +21,15 @@ const DetailSeniorModal = ({
   return (
     <BaseModal open={open} onClose={onClose}>
       <div className="flex w-full justify-center items-center gap-4">
-        <ImageFallback
-          src={icon}
-          alt={name}
-          width={1000}
-          height={1000}
-          className="w-[32px] h-[32px] object-cover"
-          unoptimized
-        />
+        <div className="flex-none basis-[34px]">
+          <ImageFallback
+            src={icon}
+            alt={name}
+            width={1000}
+            height={1000}
+            className="w-[32px] h-[32px] object-cover"
+          />
+        </div>
         <p className="text-[24px] font-bold text-[#120f46]">{name}</p>
       </div>
       <div className="flex w-full justify-start items-start flex-col gap-2 mt-4">

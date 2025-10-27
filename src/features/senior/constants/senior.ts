@@ -1,8 +1,8 @@
 export const SENIOR_DATA = [
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon1.svg",
+    image: "/images/senior/icon1.svg",
     name: "内科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon1.svg",
+    icon: "/images/senior/modal/icon1.svg",
     list: [
       {
         name: "済生会横浜市東部病院",
@@ -181,9 +181,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon2.svg",
+    image: "/images/senior/icon2.svg",
     name: "小児科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon2.svg",
+    icon: "/images/senior/modal/icon2.svg",
     list: [
       {
         name: "済生会横浜市東部病院",
@@ -240,9 +240,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon3.svg",
+    image: "/images/senior/icon3.svg",
     name: "皮膚科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon3.svg",
+    icon: "/images/senior/modal/icon3.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -267,9 +267,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon4.svg",
+    image: "/images/senior/icon4.svg",
     name: "精神科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon4.svg",
+    icon: "/images/senior/modal/icon4.svg",
     list: [
       {
         name: "済生会横浜市東部病院",
@@ -310,9 +310,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon5.svg",
+    image: "/images/senior/icon5.svg",
     name: "外科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon5.svg",
+    icon: "/images/senior/modal/icon5.svg",
     list: [
       {
         name: "済生会横浜市東部病院",
@@ -383,9 +383,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon6.svg",
+    image: "/images/senior/icon6.svg",
     name: "整形外科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon6.svg",
+    icon: "/images/senior/modal/icon6.svg",
     list: [
       {
         name: "横浜労災病院",
@@ -422,9 +422,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon7.svg",
+    image: "/images/senior/icon7.svg",
     name: "産婦人科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon7.svg",
+    icon: "/images/senior/modal/icon7.svg",
     list: [
       {
         name: "昭和大学横浜市北部病院",
@@ -469,9 +469,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon8.svg",
+    image: "/images/senior/icon8.svg",
     name: "眼科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon8.svg",
+    icon: "/images/senior/modal/icon8.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -500,9 +500,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon9.svg",
+    image: "/images/senior/icon9.svg",
     name: "耳鼻咽喉科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon9.svg",
+    icon: "/images/senior/modal/icon9.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -523,9 +523,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon10.svg",
+    image: "/images/senior/icon10.svg",
     name: "泌尿器科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon10.svg",
+    icon: "/images/senior/modal/icon10.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -554,9 +554,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon11.svg",
+    image: "/images/senior/icon11.svg",
     name: "脳神経外科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon11.svg",
+    icon: "/images/senior/modal/icon11.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -577,9 +577,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon12.svg",
+    image: "/images/senior/icon12.svg",
     name: "放射線科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon12.svg",
+    icon: "/images/senior/modal/icon12.svg",
     list: [
       {
         name: "昭和大学横浜市北部病院",
@@ -612,9 +612,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon13.svg",
+    image: "/images/senior/icon13.svg",
     name: "麻酔科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon13.svg",
+    icon: "/images/senior/modal/icon13.svg",
     list: [
       {
         name: "済生会横浜市東部病院",
@@ -683,9 +683,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon14.svg",
+    image: "/images/senior/icon14.svg",
     name: "病理プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon14.svg",
+    icon: "/images/senior/modal/icon14.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -710,9 +710,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon15.svg",
+    image: "/images/senior/icon15.svg",
     name: "臨床検査プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon15.svg",
+    icon: "/images/senior/modal/icon15.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -737,9 +737,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon16.svg",
+    image: "/images/senior/icon16.svg",
     name: "救急科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon16.svg",
+    icon: "/images/senior/modal/icon16.svg",
     list: [
       {
         name: "済生会横浜市東部病院",
@@ -816,9 +816,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon17.svg",
+    image: "/images/senior/icon17.svg",
     name: "リハビリテーション科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon17.svg",
+    icon: "/images/senior/modal/icon17.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -839,9 +839,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon18.svg",
+    image: "/images/senior/icon18.svg",
     name: "形成外科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon18.svg",
+    icon: "/images/senior/modal/icon18.svg",
     list: [
       {
         name: "横浜市立大学附属病院",
@@ -878,9 +878,9 @@ export const SENIOR_DATA = [
     ],
   },
   {
-    image: "https://kanadoc.com/image/hpinfoIcon/icon19.svg",
+    image: "/images/senior/icon19.svg",
     name: "総合診療科プログラム",
-    icon: "https://kanadoc.com/image/hpinfoIcon/modal/icon17.svg",
+    icon: "/images/senior/modal/icon17.svg",
     list: [
       {
         name: "済生会横浜市東部病院",

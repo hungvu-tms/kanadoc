@@ -6,7 +6,7 @@ const ContactWrapper = () => {
     <>
       <HeroSection
         title="お問合わせ"
-        image="https://kanadoc.com/image/headerImage/contactTop.jpg"
+        image="/images/contact/contactTop.jpg"
       />
       <BaseContainer className="py-30">
         <div className="p-4 rounded-md w-full">

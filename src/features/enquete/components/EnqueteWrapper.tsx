@@ -7,15 +7,16 @@ const EnqueteWrapper = () => {
     <div className="w-full bg-[#F5F6FA]">
       <HeroSection
         title="研修医アンケート"
-        image="https://kanadoc.com/image/headerImage/seniorTop.jpg"
+        image="/images/enquete/seniorTop.jpg"
       />
       <section className="flex items-center justify-center bg-[#F5F6FA] flex-col gap-10">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/enqueteTitle.svg"
+          src="/images/enquete/enqueteTitle.svg"
           alt="news"
           width={1000}
           height={1000}
           className="w-[50%] sm:w-[300px] h-auto pt-[80px]"
+          showSkeleton={false}
         />
         <div className="text-[21px] font-bold text-[#1062af] text-center">
           <p> 神奈川県の現役研修医にアンケートを実施しました！</p>

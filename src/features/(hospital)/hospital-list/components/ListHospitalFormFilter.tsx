@@ -4,8 +4,8 @@ import BaseContainer from "@/components/common/BaseContainer";
 import { FormItemInput } from "@/components/common/form/FormItemInput";
 
 import { FormItemSelect } from "@/components/common/form/FormItemSelect";
+import ImageFallback from "@/components/common/ImageFallback";
 import { ChevronDownIcon, SearchIcon } from "lucide-react";
-import Image from "next/image";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 interface FormValues {
@@ -39,14 +39,15 @@ const ListHospitalFormFilter = ({
       classNameContent="bg-white"
     >
       <div className="w-full h-full flex items-center justify-center flex-col  sm:px-[60px]">
-        <Image
-          src="https://kanadoc.com/image/hplist/pcMap.png"
-          alt="filter-image"
-          width={1000}
-          height={1000}
-          className="h-full w-full sm:w-[50%] my-[60px] mb-4 sm:mb-[60px]"
-          unoptimized
-        />
+        <div className="sm:w-[50%] my-[60px] mb-4 sm:mb-[60px]">
+          <ImageFallback
+            src="/images/hplist/pcMap.png"
+            alt="filter-image"
+            width={1000}
+            height={1000}
+            className="h-full w-full"
+          />
+        </div>
 
         <form
           onSubmit={handleSubmit(onSubmit)}

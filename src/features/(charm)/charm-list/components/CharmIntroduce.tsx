@@ -8,7 +8,7 @@ const CharmIntroduce = () => {
     <BaseContainer>
       <div className="flex flex-col items-center justify-center w-full pt-20 sm:pt-30 pb-10 sm:pb-20">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/charmTitle.svg"
+          src="/images/charm/charmTitle.svg"
           alt="charm-introduce"
           width={1000}
           height={1000}
@@ -36,11 +36,11 @@ const CharmIntroduce = () => {
 
       <div className="flex items-center justify-center w-full flex-col gap-10 sm:p-30 px-0 py-15">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/kankouTitle.svg"
+          src="/images/charm/kankouTitle.svg"
           alt="charm-introduce"
           width={1000}
           height={1000}
-          className="sm:w-[22%] w-[60%] h-full object-cover"
+          className="sm:w-[50%] w-[60%] h-full object-cover"
         />
         <p className="text-[16px] whitespace-pre-line leading-5">
           {`神奈川県では、公式観光サイト「観光かながわNOW」を公益社団法人神奈川県観光協会とともに運営し、\n本県の自然、歴史、伝統、文化などの多様な観光情報を提供しています。`}
@@ -51,12 +51,11 @@ const CharmIntroduce = () => {
           rel="noopener noreferrer"
         >
           <ImageFallback
-            src="https://kanadoc.com/image/image/kanagawa_logo.jpg"
+            src="/images/charm/kanagawa_logo.jpg"
             alt="kanagawa_logo"
             width={1000}
             height={1000}
             className="w-full h-full object-cover rounded-[10px] border-[1px]"
-            unoptimized
           />
         </Link>
       </div>

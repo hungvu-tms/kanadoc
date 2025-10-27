@@ -2,6 +2,7 @@
 import { CharmItem } from "@/features/(charm)/charm-list/types/charm-list";
 import { useLoading } from "@/providers/LoadingProvider";
 import { charmApi } from "@/services/charmApi";
+import { scrollToElement } from "@/utils/scrollToElement";
 import { useCallback, useState } from "react";
 
 const useQueryCharmList = (
@@ -20,6 +21,7 @@ const useQueryCharmList = (
         const res = await charmApi.getListCharm(page);
         setCharmList(res.data.charm_list);
         setCurrentPage(page);
+        scrollToElement("#charm-post");
       } catch (error) {
         showToast({
           messages: "登録に失敗しました",

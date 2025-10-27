@@ -8,12 +8,12 @@ const AssociationWrapper = () => {
     <div className="w-full bg-[#F5F6FA]">
       <HeroSection
         title="医師会とは"
-        image="https://kanadoc.com/image/headerImage/associationTop.jpg"
+        image="/images/association/associationTop.jpg"
       />
 
       <section className="flex items-center justify-center bg-[#F5F6FA] flex-col gap-10 mt-10 mb-15 px-5">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/associationTitle.svg"
+          src="/images/association/associationTitle.svg"
           alt="news"
           width={1000}
           height={1000}
@@ -32,83 +32,75 @@ const AssociationWrapper = () => {
       <div className="flex flex-col gap-10 w-full">
         <BaseContainer>
           <ImageFallback
-            src="https://kanadoc.com/image/image/ishikai1SP.png"
+            src="/images/association/ishikai1SP.png"
             alt="association"
             width={1000}
             height={1000}
             className="w-full sm:rounded-t-[30px]"
-            unoptimized
           />
 
           <div className="flex w-full">
             <a href="#">
               <ImageFallback
-                src="https://kanadoc.com/image/image/ishikai1ASP.png"
+                src="/images/association/ishikai1ASP.png"
                 alt="association"
                 width={1000}
                 height={1000}
                 className="w-full"
-                unoptimized
               />
             </a>
             <a href="#">
               <ImageFallback
-                src="https://kanadoc.com/image/image/ishikai1BSP.png"
+                src="/images/association/ishikai1BSP.png"
                 alt="association"
                 width={1000}
                 height={1000}
                 className="w-full"
-                unoptimized
               />
             </a>
             <a href="#">
               <ImageFallback
-                src="https://kanadoc.com/image/image/ishikai1CSP.png"
+                src="/images/association/ishikai1CSP.png"
                 alt="association"
                 width={1000}
                 height={1000}
                 className="w-full"
-                unoptimized
               />
             </a>
           </div>
           <ImageFallback
-            src="https://kanadoc.com/image/image/ishikai2SP.png"
+            src="/images/association/ishikai2SP.png"
             alt="association"
             width={1000}
             height={1000}
             className="w-full"
-            unoptimized
           />
           <ImageFallback
-            src="https://kanadoc.com/image/image/ishikai3SP.png"
+            src="/images/association/ishikai3SP.png"
             alt="association"
             width={1000}
             height={1000}
             className="w-full sm:rounded-b-[30px]"
-            unoptimized
           />
         </BaseContainer>
 
         <BaseContainer>
           <ImageFallback
-            src="https://kanadoc.com/image/image/ishikai4SP.png"
+            src="/images/association/ishikai4SP.png"
             alt="association"
             width={1000}
             height={1000}
             className="w-full sm:rounded-[30px]"
-            unoptimized
           />
         </BaseContainer>
 
         <BaseContainer>
           <ImageFallback
-            src="https://kanadoc.com/image/image/ishikai5SP.png"
+            src="/images/association/ishikai5.png"
             alt="association"
             width={1000}
             height={1000}
             className="w-full sm:rounded-[30px]"
-            unoptimized
           />
         </BaseContainer>
       </div>

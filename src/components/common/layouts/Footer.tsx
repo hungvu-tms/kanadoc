@@ -40,7 +40,6 @@ const Footer = () => {
           width={150}
           height={150}
           className="object-cover"
-          unoptimized
           showSkeleton={false}
         />
       </div>

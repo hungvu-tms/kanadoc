@@ -9,10 +9,7 @@ export interface NewDetailWrapperProps {
 const NewDetailWrapper = ({ id, newsDetailData }: NewDetailWrapperProps) => {
   return (
     <div className="w-full">
-      <HeroSection
-        title="お知らせ"
-        image="https://kanadoc.com/image/headerImage/newsTop.jpg"
-      />
+      <HeroSection title="お知らせ" image="/images/news/newsTop.jpg" />
       <NewDetailSection id={id} newsDetailData={newsDetailData} />
     </div>
   );

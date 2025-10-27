@@ -19,7 +19,7 @@ const CharmListWrapper = ({ charmData }: CharmListWrapperProps) => {
     <div className="w-full">
       <HeroSection
         title="発見！神奈川の魅力"
-        image="https://kanadoc.com/image/headerImage/charmTop.jpg"
+        image="/images/charm/charmTop.jpg"
       />
       <CharmIntroduce />
       <CharmPostList

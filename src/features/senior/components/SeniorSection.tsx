@@ -21,7 +21,7 @@ const SeniorSection = () => {
     <BaseContainer>
       <div className="flex justify-center items-center gap-4 w-full pt-20">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/seniorTitle.svg"
+          src="/images/senior/seniorTitle.svg"
           alt="senior-section-1"
           width={1000}
           height={1000}
@@ -41,12 +41,11 @@ const SeniorSection = () => {
         </div>
         <div className="flex-1 w-full">
           <ImageFallback
-            src="https://kanadoc.com/image/hparticle/senior.jpg"
+            src="/images/senior/senior.jpg"
             alt="senior-section-1"
             width={1000}
             height={1000}
             className="w-full md:h-auto md:max-h-auto max-h-[250px] object-cover"
-            unoptimized
           />
         </div>
       </div>
@@ -70,7 +69,6 @@ const SeniorSection = () => {
                 width={1000}
                 height={1000}
                 className="w-[101px] xl:w-fit h-auto block"
-                unoptimized
               />
             </div>
           ))}

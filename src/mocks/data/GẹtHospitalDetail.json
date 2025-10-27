@@ -13,9 +13,9 @@
     "phone": "045-576-3000",
     "fax": "045-576-3586",
     "gallery": [
-      "https://kanadoc.com/image/hospitalImage/4/01.jpg",
-      "https://kanadoc.com/image/hospitalImage/4/02.jpg",
-      "https://kanadoc.com/image/hospitalImage/2/03.jpg"
+      "/images/hplist/01.jpg",
+      "/images/hplist/02.jpg",
+      "/images/hplist/03.jpg"
     ],
     "access": [
       "JR京急川崎駅または鶴見駅よりバスで15分",

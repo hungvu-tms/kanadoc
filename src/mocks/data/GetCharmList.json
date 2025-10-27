@@ -9,17 +9,17 @@
       {
         "id": 63,
         "title": "美食俱楽部「料理屋 大三」",
-        "image": "https://kanadoc.com/articleImage/63/t.jpg"
+        "image": "/images/charm/t.jpg"
       },
       {
         "id": 62,
         "title": "美食俱楽部「Doicciane(ドイッチャーネ)」",
-        "image": "https://kanadoc.com/articleImage/62/t.jpg"
+        "image": "/images/charm/2.jpg"
       },
       {
         "id": 58,
         "title": "美食俱楽部「イタリア料理 アルモニーア」",
-        "image": "https://kanadoc.com/articleImage/58/t.jpg"
+        "image": "/images/charm/3.jpg"
       }
     ],
     "page_current": 1,

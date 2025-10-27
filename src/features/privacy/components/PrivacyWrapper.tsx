@@ -6,7 +6,7 @@ const PrivacyWrapper = () => {
     <div className="w-full">
       <HeroSection
         title="プライバシーポリシー"
-        image="https://kanadoc.com/image/headerImage/privacyTop.jpg"
+        image="/images/privacy/privacyTop.jpg"
       />
       <BaseContainer className="py-30">
         <div className="text-gray-800 leading-relaxed space-y-8 w-full mx-auto flex flex-col gap-10">

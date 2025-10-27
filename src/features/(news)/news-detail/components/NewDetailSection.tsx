@@ -11,7 +11,7 @@ const NewDetailSection = ({ id, newsDetailData }: NewDetailWrapperProps) => {
       className="!px-5 py-5 sm:py-20"
     >
       <p className="text-right text-[16px]">{newsDetailData.date}</p>
-      <h1 className="text-center font-bold text-[#282688] text-[16px]">
+      <h1 className="text-center font-bold text-[#282688] text-[16px] break-all">
         {newsDetailData.title}
       </h1>
       <div

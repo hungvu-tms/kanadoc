@@ -6,7 +6,7 @@ const SeniorWrapper = () => {
     <div className="w-full">
       <HeroSection
         title="神奈川県の専門研修"
-        image="https://kanadoc.com/image/headerImage/seniorTop.jpg"
+        image="/images/senior/seniorTop.jpg"
       />
       <SeniorSection />
     </div>

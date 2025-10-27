@@ -14,7 +14,7 @@ const HospitalDetailWrapper = ({
     <div className="w-full">
       <HeroSection
         title="病院情報"
-        image="https://kanadoc.com/image/headerImage/infoTop.jpg"
+        image="/images/hplist/infoTop.jpg"
       />
       <HospitalDetailSection id={id} hospitalDetailData={hospitalDetailData} />
     </div>

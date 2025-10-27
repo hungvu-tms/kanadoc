@@ -22,11 +22,11 @@ const AssociationTable = () => {
           <BaseButton className="w-full">産業医についてはこちら</BaseButton>
         </Link>
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/bunkakaiTitle.svg"
+          src="/images/association/bunkakaiTitle.svg"
           alt="bunkakai"
           width={1000}
           height={1000}
-          className="sm:w-[22%] w-[70%] h-auto pt-[80px]"
+          className="sm:w-[50%] w-[70%] h-auto pt-[80px]"
         />
       </div>
       <BaseTable

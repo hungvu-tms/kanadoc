@@ -2,7 +2,7 @@ import ImageFallback from "@/components/common/ImageFallback";
 
 const HeroSection = () => {
   return (
-    <section className="w-screen h-[60vh] sm:h-screen px-[40px] sm:px-0  bg-[url('https://kanadoc.com/image/headerImage/newmainTop1.jpg')] bg-cover bg-center flex items-center justify-center">
+    <section className="w-screen h-[60vh] sm:h-screen px-[40px] sm:px-0  bg-[url('/images/top/newmainTop1.jpg')] bg-cover bg-center flex items-center justify-center">
       <ImageFallback
         showSkeleton={false}
         src="/logoMain.svg"

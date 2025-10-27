@@ -14,10 +14,10 @@ interface DiscoverySectionProps {
 }
 const DiscoverySection = ({ charmList }: DiscoverySectionProps) => {
   return (
-    <section className="py-[70px] px-6  flex items-center justify-center w-full min-h-[500px] bg-[url('https://kanadoc.com/image/headerImage/newmainTop3.jpg')] bg-cover bg-center">
+    <section className="py-[70px] px-6  flex items-center justify-center w-full min-h-[500px] bg-[url('/images/top/newmainTop3.jpg')] bg-cover bg-center">
       <div className="xl:w-[1120px] 2xl:w-[1120px] w-full  flex items-center justify-center gap-[40px] flex-col">
         <ImageFallback
-          src="https://kanadoc.com/image/headerTitle/charmnewTitle.svg"
+          src="/images/top/charmnewTitle.svg"
           alt="discovery"
           width={1000}
           height={1000}
@@ -47,9 +47,8 @@ const DiscoverySection = ({ charmList }: DiscoverySectionProps) => {
                       width={1000}
                       height={1000}
                       className="w-full sm:h-full h-[200px] object-cover rounded-[10px]"
-                      unoptimized
                     />
-                    <h3 className="font-bold text-[16px]">{item.title}</h3>
+                    <h3 className="font-bold text-[16px] overflow-hidden text-ellipsis w-full min-w-0 line-clamp-2">{item.title}</h3>
                   </Link>
                 </CarouselItem>
               ))}
@@ -67,12 +66,11 @@ const DiscoverySection = ({ charmList }: DiscoverySectionProps) => {
           rel="noopener noreferrer"
         >
           <ImageFallback
-            src="https://kanadoc.com/image/image/kanagawa_logo.jpg"
+            src="/images/top/kanagawa_logo.jpg"
             alt="kanagawa_logo"
             width={1000}
             height={1000}
             className="w-full h-full object-cover rounded-[10px] border-[1px] border-[#3F96F5]"
-            unoptimized
           />
         </Link>
       </div>

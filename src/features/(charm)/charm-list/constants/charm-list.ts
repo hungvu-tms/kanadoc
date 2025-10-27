@@ -1,20 +1,20 @@
 export const CHARM_INTRODUCE = [
   {
-    background_image: "https://kanadoc.com/image/hparticle/charmA_sp.jpg",
+    background_image: "/images/charm/charmA_sp.jpg",
     title: "神奈川の特徴【食】",
     description:
       "神奈川県は、東京湾と相模湾に面した豊かな自然に恵まれ、海の幸や山の幸が堪能できるグルメの宝庫です。\n特に湘南しらすや三崎のまぐろ、葉山牛などが有名で、地元ならではの新鮮な味が楽しめます。\n横浜中華街や鎌倉の小町通りなど、観光の合間に気軽に楽しめるプチグルメも充実。\nまた、神奈川産のワインやクラフトビール、日本酒なども多彩で、地元の味をお土産に持ち帰ることもできます。",
     link: "/charm",
   },
   {
-    background_image: "https://kanadoc.com/image/hparticle/charmB_sp.jpg",
+    background_image: "/images/charm/charmB_sp.jpg",
     title: "神奈川の特徴【遊】",
     description:
       "豊かな自然と歴史的な名所が調和する観光地が多数あります。\n横浜中華街や鎌倉の古都、箱根の温泉郷など、多彩な観光スポットが点在しています。\n相模湾や東京湾の海の幸を楽しむグルメ体験や、地域特有の文化や歴史を感じるイベントも多数開催されています。\n都市の魅力と自然の美しさが融合した神奈川は、訪れるたびに新たな発見がある魅力的な観光地です。",
     link: "/charm",
   },
   {
-    background_image: "https://kanadoc.com/image/hparticle/charmC_sp.jpg",
+    background_image: "/images/charm/charmC_sp.jpg",
     title: "神奈川の特徴【見】",
     description:
       "神奈川県は、自然と都市が融合する多彩な魅力を提供します。\n鎌倉では、歴史的な寺社仏閣が古都の雰囲気を醸し出し、箱根では、富士山や芦ノ湖を背景にした四季折々の風景が楽しめます。\n横浜では、みなとみらいや赤レンガ倉庫が夜景と共に都会の魅力を満喫させてくれます。\nこれらのスポットは、訪れるたびに異なる景観を楽しめる、神奈川県の魅力を体現しています。",

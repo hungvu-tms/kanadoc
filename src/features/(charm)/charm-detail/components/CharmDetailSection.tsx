@@ -2,7 +2,6 @@ import BaseContainer from "@/components/common/BaseContainer";
 import ImageFallback from "@/components/common/ImageFallback";
 import { CharmDetailData } from "@/features/(charm)/charm-detail/types/charm-detail";
 
-
 interface CharmDetailSectionProps {
   id: string;
   charmDetailData: CharmDetailData;
@@ -19,7 +18,7 @@ const CharmDetailSection = ({
     >
       <div className="w-full ms:px-20">
         <div className="flex items-center justify-center flex-col w-full gap-10">
-          <p className="text-[24px] text-[#282688] font-bold text-center">
+          <p className="text-[24px] text-[#282688] font-bold text-center break-all">
             {charmDetailData.title}
           </p>
           <ImageFallback
@@ -28,7 +27,6 @@ const CharmDetailSection = ({
             width={1000}
             height={1000}
             className="sm:w-[40%] w-full h-full object-cover"
-            unoptimized
           />
         </div>
         <div
